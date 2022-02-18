@@ -126,6 +126,7 @@ class _PlutoGridExamplePageState extends State<PlutoGridExamplePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
       body: Container(
         padding: const EdgeInsets.all(15),
         child: PlutoGrid(
